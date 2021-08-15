@@ -54,7 +54,7 @@ print("""
 
   """)
 
-req = urllib2.urlopen('https://pastebin.com/raw/eSCHTTVu')
+req = urllib2.urlopen('https://raw.githubusercontent.com/ProjectSeve/Memcrashed-ddos/master/Memcrashedbot.txt')
 f = open('bot.txt', 'w')
 print('Bots are uploaded to the bot.txt file.')
 f.write(req.read())
